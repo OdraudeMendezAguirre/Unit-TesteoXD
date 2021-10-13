@@ -5,6 +5,7 @@ describe ('voteComponent',() => {
     beforeEach(()=>{
         component= new voteComponent();
     });
+    
     it('deveria incrementar',() =>{  
         component.upVote();
         expect(component.totalVotes).toBe(1);
